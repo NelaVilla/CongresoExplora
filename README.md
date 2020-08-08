@@ -1,26 +1,20 @@
-# video-web
-
+# Congreso de las ciencias y la tecnología - Explora RM Norte
+Página creada para que profesores y alumnos participantes del XIV Congreso de las ciencias y la tecnología pudiesen ver los videos desde una plataforma web. Para acceder a los videos es necesario registrarse y luego iniciar sesión. 
 ## Project setup
 ```
-yarn install
+yarn install o npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+yarn serve o npm run serve 
 ```
 
 ### Compiles and minifies for production
 ```
-yarn build
+yarn build o npm run build
 ```
+### Ingresar a 
+https://congreso-penorte.web.app/
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# CongresoExplora
-# CongresoExplora
-# CongresoExplora
-# CongresoExplora
-# CongresoExplora
-# CongresoExplora
-# CongresoExplora
+
