@@ -7,11 +7,13 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "core-js": "^3.6.5",
     "firebase": "^7.16.1",
+    "firebase-admin": "9.8.0",
+    "firebase-functions": "^3.14.1",
     "typicons.font": "^2.0.9",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
