@@ -25,5 +25,7 @@ yarn build o npm run build
 ```
 ### Ingresar a 
 https://congreso-penorte.web.app/
+_usuario: prueba@test.com_
+_clave:prueba1_
 
 
