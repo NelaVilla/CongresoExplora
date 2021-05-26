@@ -1,0 +1,186 @@
+[33mcommit f4b39d3fe78c0c308ea431f27ce7973fb307e708[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Nela Villa <b.villacastro@gmail.com>
+Date:   Tue May 25 19:22:02 2021 -0400
+
+    actualizacion paquetes
+
+[1mdiff --git a/package-lock.json b/package-lock.json[m
+[1mindex 7b227d6..dde311f 100644[m
+[1m--- a/package-lock.json[m
+[1m+++ b/package-lock.json[m
+[36m@@ -3150,9 +3150,9 @@[m
+       },[m
+       "dependencies": {[m
+         "ssri": {[m
+[31m-          "version": "6.0.1",[m
+[31m-          "resolved": "https://registry.npmjs.org/ssri/-/ssri-6.0.1.tgz",[m
+[31m-          "integrity": "sha512-3Wge10hNcT1Kur4PDFwEieXSCMCJs/7WvSACcrMYrNp+b8kDL1/0wJch5Ni2WrtwEa2IO8OsVfeKIciKCDx/QA==",[m
+[32m+[m[32m          "version": "6.0.2",[m
+[32m+[m[32m          "resolved": "https://registry.npmjs.org/ssri/-/ssri-6.0.2.tgz",[m
+[32m+[m[32m          "integrity": "sha512-cepbSq/neFK7xB6A50KHN0xHDotYzq58wWCa5LeWqnPrHG8GzfEjO/4O8kpmcGW+oaxkvhEJCWgbgNk4/ZV93Q==",[m
+           "dev": true,[m
+           "requires": {[m
+             "figgy-pudding": "^3.5.1"[m
+[36m@@ -4630,13 +4630,11 @@[m
+       "dev": true[m
+     },[m
+     "dns-packet": {[m
+[31m-      "version": "1.3.1",[m
+[31m-      "resolved": "https://registry.npmjs.org/dns-packet/-/dns-packet-1.3.1.tgz",[m
+[31m-      "integrity": "sha512-0UxfQkMhYAUaZI+xrNZOz/as5KgDU0M/fQ9b6SpkyLbk3GEswDi6PADJVaYJradtRVsRIlF1zLyOodbcTCDzUg==",[m
+[31m-      "dev": true,[m
+[32m+[m[32m      "version": "5.2.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/dns-packet/-/dns-packet-5.2.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-qrcTxpFwILBjWasLSVQmBXTI8XVLP9Tbmyv9Mvb41Exnl7yLqQ5UkXV7Jf+Ak14PBwoeOfCpMZZCzqUQVX40Zw==",[m
+       "requires": {[m
+[31m-        "ip": "^1.1.0",[m
+[31m-        "safe-buffer": "^5.0.1"[m
+[32m+[m[32m        "ip": "^1.1.5"[m
+       }[m
+     },[m
+     "dns-txt": {[m
+[36m@@ -4941,6 +4939,12 @@[m
+         "is-symbol": "^1.0.2"[m
+       }[m
+     },[m
+[32m+[m[32m    "escalade": {[m
+[32m+[m[32m      "version": "3.1.1",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz",[m
+[32m+[m[32m      "integrity": "sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==",[m
+[32m+[m[32m      "optional": true[m
+[32m+[m[32m    },[m
+     "escape-html": {[m
+       "version": "1.0.3",[m
+       "resolved": "https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz",[m
+[36m@@ -5258,6 +5262,14 @@[m
+       "integrity": "sha512-dtm4QZH9nZtcDt8qJiOH9fcQd1NAgi+K1O2DbE6GG1PPCK/BWfOH3idCTRQ4ImXRUOyopDEgDEnVEE7Y/2Wrig==",[m
+       "optional": true[m
+     },[m
+[32m+[m[32m    "faye-websocket": {[m
+[32m+[m[32m      "version": "0.11.3",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/faye-websocket/-/faye-websocket-0.11.3.tgz",[m
+[32m+[m[32m      "integrity": "sha512-D2y4bovYpzziGgbHYtGCMjlJM36vAl/y+xUyn1C+FVx8szd1E+86KwVw6XvYSzOP8iMpm1X0I4xJD+QtUb36OA==",[m
+[32m+[m[32m      "requires": {[m
+[32m+[m[32m        "websocket-driver": ">=0.5.1"[m
+[32m+[m[32m      }[m
+[32m+[m[32m    },[m
+     "figgy-pudding": {[m
+       "version": "3.5.2",[m
+       "resolved": "https://registry.npmjs.org/figgy-pudding/-/figgy-pudding-3.5.2.tgz",[m
+[36m@@ -5423,19 +5435,6 @@[m
+             "tslib": "^2.1.0"[m
+           }[m
+         },[m
+[31m-        "faye-websocket": {[m
+[31m-          "version": "0.11.3",[m
+[31m-          "resolved": "https://registry.npmjs.org/faye-websocket/-/faye-websocket-0.11.3.tgz",[m
+[31m-          "integrity": "sha512-D2y4bovYpzziGgbHYtGCMjlJM36vAl/y+xUyn1C+FVx8szd1E+86KwVw6XvYSzOP8iMpm1X0I4xJD+QtUb36OA==",[m
+[31m-          "requires": {[m
+[31m-            "websocket-driver": ">=0.5.1"[m
+[31m-          }[m
+[31m-        },[m
+[31m-        "node-forge": {[m
+[31m-          "version": "0.10.0",[m
+[31m-          "resolved": "https://registry.npmjs.org/node-forge/-/node-forge-0.10.0.tgz",[m
+[31m-          "integrity": "sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA=="[m
+[31m-        },[m
+         "tslib": {[m
+           "version": "2.2.0",[m
+           "resolved": "https://registry.npmjs.org/tslib/-/tslib-2.2.0.tgz",[m
+[36m@@ -5832,15 +5831,6 @@[m
+         "retry-request": "^4.0.0"[m
+       },[m
+       "dependencies": {[m
+[31m-        "@grpc/grpc-js": {[m
+[31m-          "version": "1.3.2",[m
+[31m-          "resolved": "https://registry.npmjs.org/@grpc/grpc-js/-/grpc-js-1.3.2.tgz",[m
+[31m-          "integrity": "sha512-UXepkOKCATJrhHGsxt+CGfpZy9zUn1q9mop5kfcXq1fBkTePxVNPOdnISlCbJFlCtld+pSLGyZCzr9/zVprFKA==",[m
+[31m-          "optional": true,[m
+[31m-          "requires": {[m
+[31m-            "@types/node": ">=12.12.47"[m
+[31m-          }[m
+[31m-        },[m
+         "@grpc/proto-loader": {[m
+           "version": "0.6.2",[m
+           "resolved": "https://registry.npmjs.org/@grpc/proto-loader/-/proto-loader-0.6.2.tgz",[m
+[36m@@ -5901,12 +5891,6 @@[m
+             "stream-shift": "^1.0.0"[m
+           }[m
+         },[m
+[31m-        "escalade": {[m
+[31m-          "version": "3.1.1",[m
+[31m-          "resolved": "https://registry.npmjs.org/escalade/-/escalade-3.1.1.tgz",[m
+[31m-          "integrity": "sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==",[m
+[31m-          "optional": true[m
+[31m-        },[m
+         "is-fullwidth-code-point": {[m
+           "version": "3.0.0",[m
+           "resolved": "https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz",[m
+[36m@@ -6018,14 +6002,6 @@[m
+       "optional": true,[m
+       "requires": {[m
+         "node-forge": "^0.10.0"[m
+[31m-      },[m
+[31m-      "dependencies": {[m
+[31m-        "node-forge": {[m
+[31m-          "version": "0.10.0",[m
+[31m-          "resolved": "https://registry.npmjs.org/node-forge/-/node-forge-0.10.0.tgz",[m
+[31m-          "integrity": "sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA==",[m
+[31m-          "optional": true[m
+[31m-        }[m
+       }[m
+     },[m
+     "graceful-fs": {[m
+[36m@@ -6656,8 +6632,7 @@[m
+     "ip": {[m
+       "version": "1.1.5",[m
+       "resolved": "https://registry.npmjs.org/ip/-/ip-1.1.5.tgz",[m
+[31m-      "integrity": "sha1-vd7XARQpCCjAoDnnLvJfWq7ENUo=",[m
+[31m-      "dev": true[m
+[32m+[m[32m      "integrity": "sha1-vd7XARQpCCjAoDnnLvJfWq7ENUo="[m
+     },[m
+     "ip-regex": {[m
+       "version": "2.1.0",[m
+[36m@@ -7791,6 +7766,18 @@[m
+       "requires": {[m
+         "dns-packet": "^1.3.1",[m
+         "thunky": "^1.0.2"[m
+[32m+[m[32m      },[m
+[32m+[m[32m      "dependencies": {[m
+[32m+[m[32m        "dns-packet": {[m
+[32m+[m[32m          "version": "1.3.3",[m
+[32m+[m[32m          "resolved": "https://registry.npmjs.org/dns-packet/-/dns-packet-1.3.3.tgz",[m
+[32m+[m[32m          "integrity": "sha512-dDwDMOJU+m6Qx+LhltSV+BWNrMaTqx3eXkAqgt/iouWTXGZMffg1rOSnG2xa3lWqmJ9xTBc7fgIe/css4S1rxA==",[m
+[32m+[m[32m          "dev": true,[m
+[32m+[m[32m          "requires": {[m
+[32m+[m[32m            "ip": "^1.1.0",[m
+[32m+[m[32m            "safe-buffer": "^5.0.1"[m
+[32m+[m[32m          }[m
+[32m+[m[32m        }[m
+       }[m
+     },[m
+     "multicast-dns-service-types": {[m
+[36m@@ -7864,6 +7851,11 @@[m
+         "is-stream": "^1.0.1"[m
+       }[m
+     },[m
+[32m+[m[32m    "node-forge": {[m
+[32m+[m[32m      "version": "0.10.0",[m
+[32m+[m[32m      "resolved": "https://registry.npmjs.org/node-forge/-/node-forge-0.10.0.tgz",[m
+[32m+[m[32m      "integrity": "sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA=="[m
+[32m+[m[32m    },[m
+     "node-ipc": {[m
+       "version": "9.1.1",[m
+       "resolved": "https://registry.npmjs.org/node-ipc/-/node-ipc-9.1.1.tgz",[m
+[1mdiff --git a/package.json b/package.json[m
+[1mindex 3b4d864..66719ed 100644[m
+[1m--- a/package.json[m
+[1m+++ b/package.json[m
+[36m@@ -11,6 +11,7 @@[m
+     "bootstrap": "^4.5.0",[m
+     "bootstrap-vue": "^2.15.0",[m
+     "core-js": "^3.6.5",[m
+[32m+[m[32m    "dns-packet": "^5.2.3",[m
+     "firebase": "^7.16.1",[m
+     "firebase-admin": "9.8.0",[m
+     "firebase-functions": "^3.14.1",[m
