@@ -7,18 +7,22 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@babel/core": "^7.14.3",
     "axios": "^0.21.1",
-    "bootstrap": "^4.5.0",
+    "bootstrap": "^5.0.1",
     "bootstrap-vue": "^2.15.0",
     "core-js": "^3.6.5",
     "dns-packet": "^5.2.3",
     "firebase": "^7.16.1",
     "firebase-admin": "9.8.0",
     "firebase-functions": "^3.14.1",
+    "json-bigint": "^1.0.0",
     "typicons.font": "^2.0.9",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
-    "vuex": "^3.4.0"
+    "vuex": "^3.4.0",
+    "webpack": "^5.37.1",
+    "wrap-ansi": "^8.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
